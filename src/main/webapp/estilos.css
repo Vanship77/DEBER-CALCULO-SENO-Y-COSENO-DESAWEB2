@@ -1,0 +1,81 @@
+/* Estilos generales para el body */
+body {
+    background-color: #111; /* Fondo negro */
+    color: white; /* Color de texto blanco */
+    font-family: Arial, sans-serif; /* Fuente elegante y limpia */
+    text-align: center; /* Centrar el contenido */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el título */
+h1 {
+    color: #a5a5f7; /* Color morado claro para el título */
+    font-size: 2.5em; /* Tamaño grande para el título */
+    margin-top: 50px;
+}
+
+/* Estilo para el formulario */
+form {
+    margin-top: 40px;
+}
+
+/* Estilo para el botón */
+input[type="submit"] {
+    background-color: #5f3b99; /* Color morado oscuro para el botón */
+    color: white; /* Texto blanco */
+    font-size: 1.2em; /* Tamaño de fuente en el botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de mano */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+input[type="submit"]:hover {
+    background-color: #3d2377; /* Color más oscuro para cuando el cursor está sobre el botón */
+}
+
+/* Estilo para la tabla */
+table {
+    margin: 50px auto; /* Centrar la tabla */
+    border-collapse: collapse; /* Colapsar los bordes */
+    width: 80%; /* Ancho de la tabla */
+}
+
+/* Bordes de la tabla */
+table, th, td {
+    border: 2px solid #d49f00; /* Bordes amarillos oscuros */
+}
+
+/* Estilo para las celdas de la tabla */
+th, td {
+    padding: 15px; /* Espaciado en las celdas */
+    text-align: center; /* Alinear el texto al centro */
+}
+
+/* Estilo para los encabezados de la tabla */
+th {
+    background-color: #6a2a7f; /* Color morado para los encabezados */
+    color: white; /* Texto blanco */
+    font-size: 1.2em; /* Fuente más grande */
+}
+
+/* Estilo para las filas de la tabla */
+tr:nth-child(even) {
+    background-color: #4b0f6f; /* Fondo morado más oscuro para las filas pares */
+}
+
+/* Estilo para las filas de la tabla */
+tr:nth-child(odd) {
+    background-color: #5f3b99; /* Fondo morado intermedio para las filas impares */
+}
+
+/* Estilos para la imagen */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 550px;  /* Ancho ajustado */
+    height: 350px; /* Alto ajustado */
+    object-fit: cover; /* Para que la imagen se ajuste sin deformarse */
+}
